@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.jumbotron {
+    background-color:cornflowerblue;
+    background-size: cover;
+    box-shadow: 1px 1px 5px #000000;
+}
+.jumbotron h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+.container {
+    background-color: rgba(35, 36, 171, 0.8);
+    box-shadow: 10px 10px 5px #888888;
+}
+.row {
+    font-size: 18px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}

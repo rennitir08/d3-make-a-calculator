@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch,Array.prototype.includes"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="global.css" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Simplistic Calculations</h1>
+        </div>
+        <br/><br/>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="form-group">
+                    <!--<label for="number1">Number 1</label>-->
+                    <input type="number" id="number1" class="form-control text-center" placeholder="1st Number"/>
+                </div>
+                <div class="form-group">
+                    <!--<label for="number2">Number 2</label>-->
+                    <input type="number" id="number2" class="form-control text-center" placeholder="2nd Number"/>
+                </div>
+                <div class="form-group" id="calc">
+                    <div class="btn-group btn-group-lg btn-group-justified">
+                        <div class="btn-group">
+                            <button type="button" id="add" class="btn btn-success">+</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" id="subtract" class="btn btn-success">-</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" id="multiply" class="btn btn-success">*</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" id="divide" class="btn btn-success">/</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" id="increment" class="btn btn-success">increment</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" id="decrement" class="btn btn-success">decrement</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group well text-center">
+                    <h3 id="answer"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="calc.js"></script>
+</body>
+</html>
